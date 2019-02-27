@@ -34,18 +34,16 @@ public class RestClient {
 
             System.out.println(
                     "Output from Server .... \n");
-            if (output
-                    != null) {
-                System.out.println(output);
-            }
+//            if (output
+//                    != null) {
+//                System.out.println(output);
+//            }
+
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
             CurrencyShell cs = gson.fromJson(output, CurrencyShell.class);
-
             System.out.println(cs);
-
-//            Stream<Teacher> st = Arrays.stream(teachers);
-//            List<Teacher> teachersList = Arrays.asList(teachers);
+//            System.out.println(cs);
 //
 //            for (Currency te : teachers) {
 //                System.out.println(te);

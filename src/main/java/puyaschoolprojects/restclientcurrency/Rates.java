@@ -2,1683 +2,1683 @@ package puyaschoolprojects.restclientcurrency;
 
 public class Rates {
 
-    private String FJD;
+    private Double FJD;
 
-    private String MXN;
+    private Double MXN;
 
-    private String STD;
+    private Double STD;
 
-    private String LVL;
+    private Double LVL;
 
-    private String SCR;
+    private Double SCR;
 
-    private String CDF;
+    private Double CDF;
 
-    private String BBD;
+    private Double BBD;
 
-    private String GTQ;
+    private Double GTQ;
 
-    private String CLP;
+    private Double CLP;
 
-    private String HNL;
+    private Double HNL;
 
-    private String UGX;
+    private Double UGX;
 
-    private String ZAR;
+    private Double ZAR;
 
-    private String TND;
+    private Double TND;
 
-    private String CUC;
+    private Double CUC;
 
-    private String BSD;
+    private Double BSD;
 
-    private String SLL;
+    private Double SLL;
 
-    private String SDG;
+    private Double SDG;
 
-    private String IQD;
+    private Double IQD;
 
-    private String CUP;
+    private Double CUP;
 
-    private String GMD;
+    private Double GMD;
 
-    private String TWD;
+    private Double TWD;
 
-    private String RSD;
+    private Double RSD;
 
-    private String DOP;
+    private Double DOP;
 
-    private String KMF;
+    private Double KMF;
 
-    private String MYR;
+    private Double MYR;
 
-    private String FKP;
+    private Double FKP;
 
-    private String XOF;
+    private Double XOF;
 
-    private String GEL;
+    private Double GEL;
 
-    private String BTC;
+    private Double BTC;
 
-    private String UYU;
+    private Double UYU;
 
-    private String MAD;
+    private Double MAD;
 
-    private String CVE;
+    private Double CVE;
 
-    private String TOP;
+    private Double TOP;
 
-    private String AZN;
+    private Double AZN;
 
-    private String OMR;
+    private Double OMR;
 
-    private String PGK;
+    private Double PGK;
 
-    private String KES;
+    private Double KES;
 
-    private String SEK;
+    private Double SEK;
 
-    private String BTN;
+    private Double BTN;
 
-    private String UAH;
+    private Double UAH;
 
-    private String GNF;
+    private Double GNF;
 
-    private String ERN;
+    private Double ERN;
 
-    private String MZN;
+    private Double MZN;
 
-    private String SVC;
+    private Double SVC;
 
-    private String ARS;
+    private Double ARS;
 
-    private String QAR;
+    private Double QAR;
 
-    private String IRR;
+    private Double IRR;
 
-    private String MRO;
+    private Double MRO;
 
-    private String CNY;
+    private Double CNY;
 
-    private String THB;
+    private Double THB;
 
-    private String UZS;
+    private Double UZS;
 
-    private String XPF;
+    private Double XPF;
 
-    private String BDT;
+    private Double BDT;
 
-    private String LYD;
+    private Double LYD;
 
-    private String BMD;
+    private Double BMD;
 
-    private String KWD;
+    private Double KWD;
 
-    private String PHP;
+    private Double PHP;
 
-    private String RUB;
+    private Double RUB;
 
-    private String PYG;
+    private Double PYG;
 
-    private String ISK;
+    private Double ISK;
 
-    private String JMD;
+    private Double JMD;
 
-    private String COP;
+    private Double COP;
 
-    private String MKD;
+    private Double MKD;
 
-    private String USD;
+    private Double USD;
 
-    private String DZD;
+    private Double DZD;
 
-    private String PAB;
+    private Double PAB;
 
-    private String GGP;
+    private Double GGP;
 
-    private String SGD;
+    private Double SGD;
 
-    private String ETB;
+    private Double ETB;
 
-    private String JEP;
+    private Double JEP;
 
-    private String KGS;
+    private Double KGS;
 
-    private String SOS;
+    private Double SOS;
 
-    private String VEF;
+    private Double VEF;
 
-    private String VUV;
+    private Double VUV;
 
-    private String LAK;
+    private Double LAK;
 
-    private String BND;
+    private Double BND;
 
-    private String ZMK;
+    private Double ZMK;
 
-    private String XAF;
+    private Double XAF;
 
-    private String LRD;
+    private Double LRD;
 
-    private String XAG;
+    private Double XAG;
 
-    private String CHF;
+    private Double CHF;
 
-    private String HRK;
+    private Double HRK;
 
-    private String ALL;
+    private Double ALL;
 
-    private String DJF;
+    private Double DJF;
 
-    private String ZMW;
+    private Double ZMW;
 
-    private String TZS;
+    private Double TZS;
 
-    private String VND;
+    private Double VND;
 
-    private String XAU;
+    private Double XAU;
 
-    private String AUD;
+    private Double AUD;
 
-    private String ILS;
+    private Double ILS;
 
-    private String GHS;
+    private Double GHS;
 
-    private String GYD;
+    private Double GYD;
 
-    private String KPW;
+    private Double KPW;
 
-    private String BOB;
+    private Double BOB;
 
-    private String KHR;
+    private Double KHR;
 
-    private String MDL;
+    private Double MDL;
 
-    private String IDR;
+    private Double IDR;
 
-    private String KYD;
+    private Double KYD;
 
-    private String AMD;
+    private Double AMD;
 
-    private String BWP;
+    private Double BWP;
 
-    private String SHP;
+    private Double SHP;
 
-    private String TRY;
+    private Double TRY;
 
-    private String LBP;
+    private Double LBP;
 
-    private String TJS;
+    private Double TJS;
 
-    private String JOD;
+    private Double JOD;
 
-    private String AED;
+    private Double AED;
 
-    private String HKD;
+    private Double HKD;
 
-    private String RWF;
+    private Double RWF;
 
-    private String EUR;
+    private Double EUR;
 
-    private String LSL;
+    private Double LSL;
 
-    private String DKK;
+    private Double DKK;
 
-    private String CAD;
+    private Double CAD;
 
-    private String BGN;
+    private Double BGN;
 
-    private String MMK;
+    private Double MMK;
 
-    private String MUR;
+    private Double MUR;
 
-    private String NOK;
+    private Double NOK;
 
-    private String SYP;
+    private Double SYP;
 
-    private String IMP;
+    private Double IMP;
 
-    private String ZWL;
+    private Double ZWL;
 
-    private String GIP;
+    private Double GIP;
 
-    private String RON;
+    private Double RON;
 
-    private String LKR;
+    private Double LKR;
 
-    private String NGN;
+    private Double NGN;
 
-    private String CRC;
+    private Double CRC;
 
-    private String CZK;
+    private Double CZK;
 
-    private String PKR;
+    private Double PKR;
 
-    private String XCD;
+    private Double XCD;
 
-    private String ANG;
+    private Double ANG;
 
-    private String HTG;
+    private Double HTG;
 
-    private String BHD;
+    private Double BHD;
 
-    private String KZT;
+    private Double KZT;
 
-    private String SRD;
+    private Double SRD;
 
-    private String SZL;
+    private Double SZL;
 
-    private String LTL;
+    private Double LTL;
 
-    private String SAR;
+    private Double SAR;
 
-    private String TTD;
+    private Double TTD;
 
-    private String YER;
+    private Double YER;
 
-    private String MVR;
+    private Double MVR;
 
-    private String AFN;
+    private Double AFN;
 
-    private String INR;
+    private Double INR;
 
-    private String AWG;
+    private Double AWG;
 
-    private String KRW;
+    private Double KRW;
 
-    private String NPR;
+    private Double NPR;
 
-    private String JPY;
+    private Double JPY;
 
-    private String MNT;
+    private Double MNT;
 
-    private String AOA;
+    private Double AOA;
 
-    private String PLN;
+    private Double PLN;
 
-    private String GBP;
+    private Double GBP;
 
-    private String SBD;
+    private Double SBD;
 
-    private String BYN;
+    private Double BYN;
 
-    private String HUF;
+    private Double HUF;
 
-    private String BYR;
+    private Double BYR;
 
-    private String BIF;
+    private Double BIF;
 
-    private String MWK;
+    private Double MWK;
 
-    private String MGA;
+    private Double MGA;
 
-    private String XDR;
+    private Double XDR;
 
-    private String BZD;
+    private Double BZD;
 
-    private String BAM;
+    private Double BAM;
 
-    private String EGP;
+    private Double EGP;
 
-    private String MOP;
+    private Double MOP;
 
-    private String NAD;
+    private Double NAD;
 
-    private String NIO;
+    private Double NIO;
 
-    private String PEN;
+    private Double PEN;
 
-    private String NZD;
+    private Double NZD;
 
-    private String WST;
+    private Double WST;
 
-    private String TMT;
+    private Double TMT;
 
-    private String CLF;
+    private Double CLF;
 
-    private String BRL;
+    private Double BRL;
 
-    public String getFJD() {
+    public Double getFJD() {
         return FJD;
     }
 
-    public void setFJD(String FJD) {
+    public void setFJD(Double FJD) {
         this.FJD = FJD;
     }
 
-    public String getMXN() {
+    public Double getMXN() {
         return MXN;
     }
 
-    public void setMXN(String MXN) {
+    public void setMXN(Double MXN) {
         this.MXN = MXN;
     }
 
-    public String getSTD() {
+    public Double getSTD() {
         return STD;
     }
 
-    public void setSTD(String STD) {
+    public void setSTD(Double STD) {
         this.STD = STD;
     }
 
-    public String getLVL() {
+    public Double getLVL() {
         return LVL;
     }
 
-    public void setLVL(String LVL) {
+    public void setLVL(Double LVL) {
         this.LVL = LVL;
     }
 
-    public String getSCR() {
+    public Double getSCR() {
         return SCR;
     }
 
-    public void setSCR(String SCR) {
+    public void setSCR(Double SCR) {
         this.SCR = SCR;
     }
 
-    public String getCDF() {
+    public Double getCDF() {
         return CDF;
     }
 
-    public void setCDF(String CDF) {
+    public void setCDF(Double CDF) {
         this.CDF = CDF;
     }
 
-    public String getBBD() {
+    public Double getBBD() {
         return BBD;
     }
 
-    public void setBBD(String BBD) {
+    public void setBBD(Double BBD) {
         this.BBD = BBD;
     }
 
-    public String getGTQ() {
+    public Double getGTQ() {
         return GTQ;
     }
 
-    public void setGTQ(String GTQ) {
+    public void setGTQ(Double GTQ) {
         this.GTQ = GTQ;
     }
 
-    public String getCLP() {
+    public Double getCLP() {
         return CLP;
     }
 
-    public void setCLP(String CLP) {
+    public void setCLP(Double CLP) {
         this.CLP = CLP;
     }
 
-    public String getHNL() {
+    public Double getHNL() {
         return HNL;
     }
 
-    public void setHNL(String HNL) {
+    public void setHNL(Double HNL) {
         this.HNL = HNL;
     }
 
-    public String getUGX() {
+    public Double getUGX() {
         return UGX;
     }
 
-    public void setUGX(String UGX) {
+    public void setUGX(Double UGX) {
         this.UGX = UGX;
     }
 
-    public String getZAR() {
+    public Double getZAR() {
         return ZAR;
     }
 
-    public void setZAR(String ZAR) {
+    public void setZAR(Double ZAR) {
         this.ZAR = ZAR;
     }
 
-    public String getTND() {
+    public Double getTND() {
         return TND;
     }
 
-    public void setTND(String TND) {
+    public void setTND(Double TND) {
         this.TND = TND;
     }
 
-    public String getCUC() {
+    public Double getCUC() {
         return CUC;
     }
 
-    public void setCUC(String CUC) {
+    public void setCUC(Double CUC) {
         this.CUC = CUC;
     }
 
-    public String getBSD() {
+    public Double getBSD() {
         return BSD;
     }
 
-    public void setBSD(String BSD) {
+    public void setBSD(Double BSD) {
         this.BSD = BSD;
     }
 
-    public String getSLL() {
+    public Double getSLL() {
         return SLL;
     }
 
-    public void setSLL(String SLL) {
+    public void setSLL(Double SLL) {
         this.SLL = SLL;
     }
 
-    public String getSDG() {
+    public Double getSDG() {
         return SDG;
     }
 
-    public void setSDG(String SDG) {
+    public void setSDG(Double SDG) {
         this.SDG = SDG;
     }
 
-    public String getIQD() {
+    public Double getIQD() {
         return IQD;
     }
 
-    public void setIQD(String IQD) {
+    public void setIQD(Double IQD) {
         this.IQD = IQD;
     }
 
-    public String getCUP() {
+    public Double getCUP() {
         return CUP;
     }
 
-    public void setCUP(String CUP) {
+    public void setCUP(Double CUP) {
         this.CUP = CUP;
     }
 
-    public String getGMD() {
+    public Double getGMD() {
         return GMD;
     }
 
-    public void setGMD(String GMD) {
+    public void setGMD(Double GMD) {
         this.GMD = GMD;
     }
 
-    public String getTWD() {
+    public Double getTWD() {
         return TWD;
     }
 
-    public void setTWD(String TWD) {
+    public void setTWD(Double TWD) {
         this.TWD = TWD;
     }
 
-    public String getRSD() {
+    public Double getRSD() {
         return RSD;
     }
 
-    public void setRSD(String RSD) {
+    public void setRSD(Double RSD) {
         this.RSD = RSD;
     }
 
-    public String getDOP() {
+    public Double getDOP() {
         return DOP;
     }
 
-    public void setDOP(String DOP) {
+    public void setDOP(Double DOP) {
         this.DOP = DOP;
     }
 
-    public String getKMF() {
+    public Double getKMF() {
         return KMF;
     }
 
-    public void setKMF(String KMF) {
+    public void setKMF(Double KMF) {
         this.KMF = KMF;
     }
 
-    public String getMYR() {
+    public Double getMYR() {
         return MYR;
     }
 
-    public void setMYR(String MYR) {
+    public void setMYR(Double MYR) {
         this.MYR = MYR;
     }
 
-    public String getFKP() {
+    public Double getFKP() {
         return FKP;
     }
 
-    public void setFKP(String FKP) {
+    public void setFKP(Double FKP) {
         this.FKP = FKP;
     }
 
-    public String getXOF() {
+    public Double getXOF() {
         return XOF;
     }
 
-    public void setXOF(String XOF) {
+    public void setXOF(Double XOF) {
         this.XOF = XOF;
     }
 
-    public String getGEL() {
+    public Double getGEL() {
         return GEL;
     }
 
-    public void setGEL(String GEL) {
+    public void setGEL(Double GEL) {
         this.GEL = GEL;
     }
 
-    public String getBTC() {
+    public Double getBTC() {
         return BTC;
     }
 
-    public void setBTC(String BTC) {
+    public void setBTC(Double BTC) {
         this.BTC = BTC;
     }
 
-    public String getUYU() {
+    public Double getUYU() {
         return UYU;
     }
 
-    public void setUYU(String UYU) {
+    public void setUYU(Double UYU) {
         this.UYU = UYU;
     }
 
-    public String getMAD() {
+    public Double getMAD() {
         return MAD;
     }
 
-    public void setMAD(String MAD) {
+    public void setMAD(Double MAD) {
         this.MAD = MAD;
     }
 
-    public String getCVE() {
+    public Double getCVE() {
         return CVE;
     }
 
-    public void setCVE(String CVE) {
+    public void setCVE(Double CVE) {
         this.CVE = CVE;
     }
 
-    public String getTOP() {
+    public Double getTOP() {
         return TOP;
     }
 
-    public void setTOP(String TOP) {
+    public void setTOP(Double TOP) {
         this.TOP = TOP;
     }
 
-    public String getAZN() {
+    public Double getAZN() {
         return AZN;
     }
 
-    public void setAZN(String AZN) {
+    public void setAZN(Double AZN) {
         this.AZN = AZN;
     }
 
-    public String getOMR() {
+    public Double getOMR() {
         return OMR;
     }
 
-    public void setOMR(String OMR) {
+    public void setOMR(Double OMR) {
         this.OMR = OMR;
     }
 
-    public String getPGK() {
+    public Double getPGK() {
         return PGK;
     }
 
-    public void setPGK(String PGK) {
+    public void setPGK(Double PGK) {
         this.PGK = PGK;
     }
 
-    public String getKES() {
+    public Double getKES() {
         return KES;
     }
 
-    public void setKES(String KES) {
+    public void setKES(Double KES) {
         this.KES = KES;
     }
 
-    public String getSEK() {
+    public Double getSEK() {
         return SEK;
     }
 
-    public void setSEK(String SEK) {
+    public void setSEK(Double SEK) {
         this.SEK = SEK;
     }
 
-    public String getBTN() {
+    public Double getBTN() {
         return BTN;
     }
 
-    public void setBTN(String BTN) {
+    public void setBTN(Double BTN) {
         this.BTN = BTN;
     }
 
-    public String getUAH() {
+    public Double getUAH() {
         return UAH;
     }
 
-    public void setUAH(String UAH) {
+    public void setUAH(Double UAH) {
         this.UAH = UAH;
     }
 
-    public String getGNF() {
+    public Double getGNF() {
         return GNF;
     }
 
-    public void setGNF(String GNF) {
+    public void setGNF(Double GNF) {
         this.GNF = GNF;
     }
 
-    public String getERN() {
+    public Double getERN() {
         return ERN;
     }
 
-    public void setERN(String ERN) {
+    public void setERN(Double ERN) {
         this.ERN = ERN;
     }
 
-    public String getMZN() {
+    public Double getMZN() {
         return MZN;
     }
 
-    public void setMZN(String MZN) {
+    public void setMZN(Double MZN) {
         this.MZN = MZN;
     }
 
-    public String getSVC() {
+    public Double getSVC() {
         return SVC;
     }
 
-    public void setSVC(String SVC) {
+    public void setSVC(Double SVC) {
         this.SVC = SVC;
     }
 
-    public String getARS() {
+    public Double getARS() {
         return ARS;
     }
 
-    public void setARS(String ARS) {
+    public void setARS(Double ARS) {
         this.ARS = ARS;
     }
 
-    public String getQAR() {
+    public Double getQAR() {
         return QAR;
     }
 
-    public void setQAR(String QAR) {
+    public void setQAR(Double QAR) {
         this.QAR = QAR;
     }
 
-    public String getIRR() {
+    public Double getIRR() {
         return IRR;
     }
 
-    public void setIRR(String IRR) {
+    public void setIRR(Double IRR) {
         this.IRR = IRR;
     }
 
-    public String getMRO() {
+    public Double getMRO() {
         return MRO;
     }
 
-    public void setMRO(String MRO) {
+    public void setMRO(Double MRO) {
         this.MRO = MRO;
     }
 
-    public String getCNY() {
+    public Double getCNY() {
         return CNY;
     }
 
-    public void setCNY(String CNY) {
+    public void setCNY(Double CNY) {
         this.CNY = CNY;
     }
 
-    public String getTHB() {
+    public Double getTHB() {
         return THB;
     }
 
-    public void setTHB(String THB) {
+    public void setTHB(Double THB) {
         this.THB = THB;
     }
 
-    public String getUZS() {
+    public Double getUZS() {
         return UZS;
     }
 
-    public void setUZS(String UZS) {
+    public void setUZS(Double UZS) {
         this.UZS = UZS;
     }
 
-    public String getXPF() {
+    public Double getXPF() {
         return XPF;
     }
 
-    public void setXPF(String XPF) {
+    public void setXPF(Double XPF) {
         this.XPF = XPF;
     }
 
-    public String getBDT() {
+    public Double getBDT() {
         return BDT;
     }
 
-    public void setBDT(String BDT) {
+    public void setBDT(Double BDT) {
         this.BDT = BDT;
     }
 
-    public String getLYD() {
+    public Double getLYD() {
         return LYD;
     }
 
-    public void setLYD(String LYD) {
+    public void setLYD(Double LYD) {
         this.LYD = LYD;
     }
 
-    public String getBMD() {
+    public Double getBMD() {
         return BMD;
     }
 
-    public void setBMD(String BMD) {
+    public void setBMD(Double BMD) {
         this.BMD = BMD;
     }
 
-    public String getKWD() {
+    public Double getKWD() {
         return KWD;
     }
 
-    public void setKWD(String KWD) {
+    public void setKWD(Double KWD) {
         this.KWD = KWD;
     }
 
-    public String getPHP() {
+    public Double getPHP() {
         return PHP;
     }
 
-    public void setPHP(String PHP) {
+    public void setPHP(Double PHP) {
         this.PHP = PHP;
     }
 
-    public String getRUB() {
+    public Double getRUB() {
         return RUB;
     }
 
-    public void setRUB(String RUB) {
+    public void setRUB(Double RUB) {
         this.RUB = RUB;
     }
 
-    public String getPYG() {
+    public Double getPYG() {
         return PYG;
     }
 
-    public void setPYG(String PYG) {
+    public void setPYG(Double PYG) {
         this.PYG = PYG;
     }
 
-    public String getISK() {
+    public Double getISK() {
         return ISK;
     }
 
-    public void setISK(String ISK) {
+    public void setISK(Double ISK) {
         this.ISK = ISK;
     }
 
-    public String getJMD() {
+    public Double getJMD() {
         return JMD;
     }
 
-    public void setJMD(String JMD) {
+    public void setJMD(Double JMD) {
         this.JMD = JMD;
     }
 
-    public String getCOP() {
+    public Double getCOP() {
         return COP;
     }
 
-    public void setCOP(String COP) {
+    public void setCOP(Double COP) {
         this.COP = COP;
     }
 
-    public String getMKD() {
+    public Double getMKD() {
         return MKD;
     }
 
-    public void setMKD(String MKD) {
+    public void setMKD(Double MKD) {
         this.MKD = MKD;
     }
 
-    public String getUSD() {
+    public Double getUSD() {
         return USD;
     }
 
-    public void setUSD(String USD) {
+    public void setUSD(Double USD) {
         this.USD = USD;
     }
 
-    public String getDZD() {
+    public Double getDZD() {
         return DZD;
     }
 
-    public void setDZD(String DZD) {
+    public void setDZD(Double DZD) {
         this.DZD = DZD;
     }
 
-    public String getPAB() {
+    public Double getPAB() {
         return PAB;
     }
 
-    public void setPAB(String PAB) {
+    public void setPAB(Double PAB) {
         this.PAB = PAB;
     }
 
-    public String getGGP() {
+    public Double getGGP() {
         return GGP;
     }
 
-    public void setGGP(String GGP) {
+    public void setGGP(Double GGP) {
         this.GGP = GGP;
     }
 
-    public String getSGD() {
+    public Double getSGD() {
         return SGD;
     }
 
-    public void setSGD(String SGD) {
+    public void setSGD(Double SGD) {
         this.SGD = SGD;
     }
 
-    public String getETB() {
+    public Double getETB() {
         return ETB;
     }
 
-    public void setETB(String ETB) {
+    public void setETB(Double ETB) {
         this.ETB = ETB;
     }
 
-    public String getJEP() {
+    public Double getJEP() {
         return JEP;
     }
 
-    public void setJEP(String JEP) {
+    public void setJEP(Double JEP) {
         this.JEP = JEP;
     }
 
-    public String getKGS() {
+    public Double getKGS() {
         return KGS;
     }
 
-    public void setKGS(String KGS) {
+    public void setKGS(Double KGS) {
         this.KGS = KGS;
     }
 
-    public String getSOS() {
+    public Double getSOS() {
         return SOS;
     }
 
-    public void setSOS(String SOS) {
+    public void setSOS(Double SOS) {
         this.SOS = SOS;
     }
 
-    public String getVEF() {
+    public Double getVEF() {
         return VEF;
     }
 
-    public void setVEF(String VEF) {
+    public void setVEF(Double VEF) {
         this.VEF = VEF;
     }
 
-    public String getVUV() {
+    public Double getVUV() {
         return VUV;
     }
 
-    public void setVUV(String VUV) {
+    public void setVUV(Double VUV) {
         this.VUV = VUV;
     }
 
-    public String getLAK() {
+    public Double getLAK() {
         return LAK;
     }
 
-    public void setLAK(String LAK) {
+    public void setLAK(Double LAK) {
         this.LAK = LAK;
     }
 
-    public String getBND() {
+    public Double getBND() {
         return BND;
     }
 
-    public void setBND(String BND) {
+    public void setBND(Double BND) {
         this.BND = BND;
     }
 
-    public String getZMK() {
+    public Double getZMK() {
         return ZMK;
     }
 
-    public void setZMK(String ZMK) {
+    public void setZMK(Double ZMK) {
         this.ZMK = ZMK;
     }
 
-    public String getXAF() {
+    public Double getXAF() {
         return XAF;
     }
 
-    public void setXAF(String XAF) {
+    public void setXAF(Double XAF) {
         this.XAF = XAF;
     }
 
-    public String getLRD() {
+    public Double getLRD() {
         return LRD;
     }
 
-    public void setLRD(String LRD) {
+    public void setLRD(Double LRD) {
         this.LRD = LRD;
     }
 
-    public String getXAG() {
+    public Double getXAG() {
         return XAG;
     }
 
-    public void setXAG(String XAG) {
+    public void setXAG(Double XAG) {
         this.XAG = XAG;
     }
 
-    public String getCHF() {
+    public Double getCHF() {
         return CHF;
     }
 
-    public void setCHF(String CHF) {
+    public void setCHF(Double CHF) {
         this.CHF = CHF;
     }
 
-    public String getHRK() {
+    public Double getHRK() {
         return HRK;
     }
 
-    public void setHRK(String HRK) {
+    public void setHRK(Double HRK) {
         this.HRK = HRK;
     }
 
-    public String getALL() {
+    public Double getALL() {
         return ALL;
     }
 
-    public void setALL(String ALL) {
+    public void setALL(Double ALL) {
         this.ALL = ALL;
     }
 
-    public String getDJF() {
+    public Double getDJF() {
         return DJF;
     }
 
-    public void setDJF(String DJF) {
+    public void setDJF(Double DJF) {
         this.DJF = DJF;
     }
 
-    public String getZMW() {
+    public Double getZMW() {
         return ZMW;
     }
 
-    public void setZMW(String ZMW) {
+    public void setZMW(Double ZMW) {
         this.ZMW = ZMW;
     }
 
-    public String getTZS() {
+    public Double getTZS() {
         return TZS;
     }
 
-    public void setTZS(String TZS) {
+    public void setTZS(Double TZS) {
         this.TZS = TZS;
     }
 
-    public String getVND() {
+    public Double getVND() {
         return VND;
     }
 
-    public void setVND(String VND) {
+    public void setVND(Double VND) {
         this.VND = VND;
     }
 
-    public String getXAU() {
+    public Double getXAU() {
         return XAU;
     }
 
-    public void setXAU(String XAU) {
+    public void setXAU(Double XAU) {
         this.XAU = XAU;
     }
 
-    public String getAUD() {
+    public Double getAUD() {
         return AUD;
     }
 
-    public void setAUD(String AUD) {
+    public void setAUD(Double AUD) {
         this.AUD = AUD;
     }
 
-    public String getILS() {
+    public Double getILS() {
         return ILS;
     }
 
-    public void setILS(String ILS) {
+    public void setILS(Double ILS) {
         this.ILS = ILS;
     }
 
-    public String getGHS() {
+    public Double getGHS() {
         return GHS;
     }
 
-    public void setGHS(String GHS) {
+    public void setGHS(Double GHS) {
         this.GHS = GHS;
     }
 
-    public String getGYD() {
+    public Double getGYD() {
         return GYD;
     }
 
-    public void setGYD(String GYD) {
+    public void setGYD(Double GYD) {
         this.GYD = GYD;
     }
 
-    public String getKPW() {
+    public Double getKPW() {
         return KPW;
     }
 
-    public void setKPW(String KPW) {
+    public void setKPW(Double KPW) {
         this.KPW = KPW;
     }
 
-    public String getBOB() {
+    public Double getBOB() {
         return BOB;
     }
 
-    public void setBOB(String BOB) {
+    public void setBOB(Double BOB) {
         this.BOB = BOB;
     }
 
-    public String getKHR() {
+    public Double getKHR() {
         return KHR;
     }
 
-    public void setKHR(String KHR) {
+    public void setKHR(Double KHR) {
         this.KHR = KHR;
     }
 
-    public String getMDL() {
+    public Double getMDL() {
         return MDL;
     }
 
-    public void setMDL(String MDL) {
+    public void setMDL(Double MDL) {
         this.MDL = MDL;
     }
 
-    public String getIDR() {
+    public Double getIDR() {
         return IDR;
     }
 
-    public void setIDR(String IDR) {
+    public void setIDR(Double IDR) {
         this.IDR = IDR;
     }
 
-    public String getKYD() {
+    public Double getKYD() {
         return KYD;
     }
 
-    public void setKYD(String KYD) {
+    public void setKYD(Double KYD) {
         this.KYD = KYD;
     }
 
-    public String getAMD() {
+    public Double getAMD() {
         return AMD;
     }
 
-    public void setAMD(String AMD) {
+    public void setAMD(Double AMD) {
         this.AMD = AMD;
     }
 
-    public String getBWP() {
+    public Double getBWP() {
         return BWP;
     }
 
-    public void setBWP(String BWP) {
+    public void setBWP(Double BWP) {
         this.BWP = BWP;
     }
 
-    public String getSHP() {
+    public Double getSHP() {
         return SHP;
     }
 
-    public void setSHP(String SHP) {
+    public void setSHP(Double SHP) {
         this.SHP = SHP;
     }
 
-    public String getTRY() {
+    public Double getTRY() {
         return TRY;
     }
 
-    public void setTRY(String TRY) {
+    public void setTRY(Double TRY) {
         this.TRY = TRY;
     }
 
-    public String getLBP() {
+    public Double getLBP() {
         return LBP;
     }
 
-    public void setLBP(String LBP) {
+    public void setLBP(Double LBP) {
         this.LBP = LBP;
     }
 
-    public String getTJS() {
+    public Double getTJS() {
         return TJS;
     }
 
-    public void setTJS(String TJS) {
+    public void setTJS(Double TJS) {
         this.TJS = TJS;
     }
 
-    public String getJOD() {
+    public Double getJOD() {
         return JOD;
     }
 
-    public void setJOD(String JOD) {
+    public void setJOD(Double JOD) {
         this.JOD = JOD;
     }
 
-    public String getAED() {
+    public Double getAED() {
         return AED;
     }
 
-    public void setAED(String AED) {
+    public void setAED(Double AED) {
         this.AED = AED;
     }
 
-    public String getHKD() {
+    public Double getHKD() {
         return HKD;
     }
 
-    public void setHKD(String HKD) {
+    public void setHKD(Double HKD) {
         this.HKD = HKD;
     }
 
-    public String getRWF() {
+    public Double getRWF() {
         return RWF;
     }
 
-    public void setRWF(String RWF) {
+    public void setRWF(Double RWF) {
         this.RWF = RWF;
     }
 
-    public String getEUR() {
+    public Double getEUR() {
         return EUR;
     }
 
-    public void setEUR(String EUR) {
+    public void setEUR(Double EUR) {
         this.EUR = EUR;
     }
 
-    public String getLSL() {
+    public Double getLSL() {
         return LSL;
     }
 
-    public void setLSL(String LSL) {
+    public void setLSL(Double LSL) {
         this.LSL = LSL;
     }
 
-    public String getDKK() {
+    public Double getDKK() {
         return DKK;
     }
 
-    public void setDKK(String DKK) {
+    public void setDKK(Double DKK) {
         this.DKK = DKK;
     }
 
-    public String getCAD() {
+    public Double getCAD() {
         return CAD;
     }
 
-    public void setCAD(String CAD) {
+    public void setCAD(Double CAD) {
         this.CAD = CAD;
     }
 
-    public String getBGN() {
+    public Double getBGN() {
         return BGN;
     }
 
-    public void setBGN(String BGN) {
+    public void setBGN(Double BGN) {
         this.BGN = BGN;
     }
 
-    public String getMMK() {
+    public Double getMMK() {
         return MMK;
     }
 
-    public void setMMK(String MMK) {
+    public void setMMK(Double MMK) {
         this.MMK = MMK;
     }
 
-    public String getMUR() {
+    public Double getMUR() {
         return MUR;
     }
 
-    public void setMUR(String MUR) {
+    public void setMUR(Double MUR) {
         this.MUR = MUR;
     }
 
-    public String getNOK() {
+    public Double getNOK() {
         return NOK;
     }
 
-    public void setNOK(String NOK) {
+    public void setNOK(Double NOK) {
         this.NOK = NOK;
     }
 
-    public String getSYP() {
+    public Double getSYP() {
         return SYP;
     }
 
-    public void setSYP(String SYP) {
+    public void setSYP(Double SYP) {
         this.SYP = SYP;
     }
 
-    public String getIMP() {
+    public Double getIMP() {
         return IMP;
     }
 
-    public void setIMP(String IMP) {
+    public void setIMP(Double IMP) {
         this.IMP = IMP;
     }
 
-    public String getZWL() {
+    public Double getZWL() {
         return ZWL;
     }
 
-    public void setZWL(String ZWL) {
+    public void setZWL(Double ZWL) {
         this.ZWL = ZWL;
     }
 
-    public String getGIP() {
+    public Double getGIP() {
         return GIP;
     }
 
-    public void setGIP(String GIP) {
+    public void setGIP(Double GIP) {
         this.GIP = GIP;
     }
 
-    public String getRON() {
+    public Double getRON() {
         return RON;
     }
 
-    public void setRON(String RON) {
+    public void setRON(Double RON) {
         this.RON = RON;
     }
 
-    public String getLKR() {
+    public Double getLKR() {
         return LKR;
     }
 
-    public void setLKR(String LKR) {
+    public void setLKR(Double LKR) {
         this.LKR = LKR;
     }
 
-    public String getNGN() {
+    public Double getNGN() {
         return NGN;
     }
 
-    public void setNGN(String NGN) {
+    public void setNGN(Double NGN) {
         this.NGN = NGN;
     }
 
-    public String getCRC() {
+    public Double getCRC() {
         return CRC;
     }
 
-    public void setCRC(String CRC) {
+    public void setCRC(Double CRC) {
         this.CRC = CRC;
     }
 
-    public String getCZK() {
+    public Double getCZK() {
         return CZK;
     }
 
-    public void setCZK(String CZK) {
+    public void setCZK(Double CZK) {
         this.CZK = CZK;
     }
 
-    public String getPKR() {
+    public Double getPKR() {
         return PKR;
     }
 
-    public void setPKR(String PKR) {
+    public void setPKR(Double PKR) {
         this.PKR = PKR;
     }
 
-    public String getXCD() {
+    public Double getXCD() {
         return XCD;
     }
 
-    public void setXCD(String XCD) {
+    public void setXCD(Double XCD) {
         this.XCD = XCD;
     }
 
-    public String getANG() {
+    public Double getANG() {
         return ANG;
     }
 
-    public void setANG(String ANG) {
+    public void setANG(Double ANG) {
         this.ANG = ANG;
     }
 
-    public String getHTG() {
+    public Double getHTG() {
         return HTG;
     }
 
-    public void setHTG(String HTG) {
+    public void setHTG(Double HTG) {
         this.HTG = HTG;
     }
 
-    public String getBHD() {
+    public Double getBHD() {
         return BHD;
     }
 
-    public void setBHD(String BHD) {
+    public void setBHD(Double BHD) {
         this.BHD = BHD;
     }
 
-    public String getKZT() {
+    public Double getKZT() {
         return KZT;
     }
 
-    public void setKZT(String KZT) {
+    public void setKZT(Double KZT) {
         this.KZT = KZT;
     }
 
-    public String getSRD() {
+    public Double getSRD() {
         return SRD;
     }
 
-    public void setSRD(String SRD) {
+    public void setSRD(Double SRD) {
         this.SRD = SRD;
     }
 
-    public String getSZL() {
+    public Double getSZL() {
         return SZL;
     }
 
-    public void setSZL(String SZL) {
+    public void setSZL(Double SZL) {
         this.SZL = SZL;
     }
 
-    public String getLTL() {
+    public Double getLTL() {
         return LTL;
     }
 
-    public void setLTL(String LTL) {
+    public void setLTL(Double LTL) {
         this.LTL = LTL;
     }
 
-    public String getSAR() {
+    public Double getSAR() {
         return SAR;
     }
 
-    public void setSAR(String SAR) {
+    public void setSAR(Double SAR) {
         this.SAR = SAR;
     }
 
-    public String getTTD() {
+    public Double getTTD() {
         return TTD;
     }
 
-    public void setTTD(String TTD) {
+    public void setTTD(Double TTD) {
         this.TTD = TTD;
     }
 
-    public String getYER() {
+    public Double getYER() {
         return YER;
     }
 
-    public void setYER(String YER) {
+    public void setYER(Double YER) {
         this.YER = YER;
     }
 
-    public String getMVR() {
+    public Double getMVR() {
         return MVR;
     }
 
-    public void setMVR(String MVR) {
+    public void setMVR(Double MVR) {
         this.MVR = MVR;
     }
 
-    public String getAFN() {
+    public Double getAFN() {
         return AFN;
     }
 
-    public void setAFN(String AFN) {
+    public void setAFN(Double AFN) {
         this.AFN = AFN;
     }
 
-    public String getINR() {
+    public Double getINR() {
         return INR;
     }
 
-    public void setINR(String INR) {
+    public void setINR(Double INR) {
         this.INR = INR;
     }
 
-    public String getAWG() {
+    public Double getAWG() {
         return AWG;
     }
 
-    public void setAWG(String AWG) {
+    public void setAWG(Double AWG) {
         this.AWG = AWG;
     }
 
-    public String getKRW() {
+    public Double getKRW() {
         return KRW;
     }
 
-    public void setKRW(String KRW) {
+    public void setKRW(Double KRW) {
         this.KRW = KRW;
     }
 
-    public String getNPR() {
+    public Double getNPR() {
         return NPR;
     }
 
-    public void setNPR(String NPR) {
+    public void setNPR(Double NPR) {
         this.NPR = NPR;
     }
 
-    public String getJPY() {
+    public Double getJPY() {
         return JPY;
     }
 
-    public void setJPY(String JPY) {
+    public void setJPY(Double JPY) {
         this.JPY = JPY;
     }
 
-    public String getMNT() {
+    public Double getMNT() {
         return MNT;
     }
 
-    public void setMNT(String MNT) {
+    public void setMNT(Double MNT) {
         this.MNT = MNT;
     }
 
-    public String getAOA() {
+    public Double getAOA() {
         return AOA;
     }
 
-    public void setAOA(String AOA) {
+    public void setAOA(Double AOA) {
         this.AOA = AOA;
     }
 
-    public String getPLN() {
+    public Double getPLN() {
         return PLN;
     }
 
-    public void setPLN(String PLN) {
+    public void setPLN(Double PLN) {
         this.PLN = PLN;
     }
 
-    public String getGBP() {
+    public Double getGBP() {
         return GBP;
     }
 
-    public void setGBP(String GBP) {
+    public void setGBP(Double GBP) {
         this.GBP = GBP;
     }
 
-    public String getSBD() {
+    public Double getSBD() {
         return SBD;
     }
 
-    public void setSBD(String SBD) {
+    public void setSBD(Double SBD) {
         this.SBD = SBD;
     }
 
-    public String getBYN() {
+    public Double getBYN() {
         return BYN;
     }
 
-    public void setBYN(String BYN) {
+    public void setBYN(Double BYN) {
         this.BYN = BYN;
     }
 
-    public String getHUF() {
+    public Double getHUF() {
         return HUF;
     }
 
-    public void setHUF(String HUF) {
+    public void setHUF(Double HUF) {
         this.HUF = HUF;
     }
 
-    public String getBYR() {
+    public Double getBYR() {
         return BYR;
     }
 
-    public void setBYR(String BYR) {
+    public void setBYR(Double BYR) {
         this.BYR = BYR;
     }
 
-    public String getBIF() {
+    public Double getBIF() {
         return BIF;
     }
 
-    public void setBIF(String BIF) {
+    public void setBIF(Double BIF) {
         this.BIF = BIF;
     }
 
-    public String getMWK() {
+    public Double getMWK() {
         return MWK;
     }
 
-    public void setMWK(String MWK) {
+    public void setMWK(Double MWK) {
         this.MWK = MWK;
     }
 
-    public String getMGA() {
+    public Double getMGA() {
         return MGA;
     }
 
-    public void setMGA(String MGA) {
+    public void setMGA(Double MGA) {
         this.MGA = MGA;
     }
 
-    public String getXDR() {
+    public Double getXDR() {
         return XDR;
     }
 
-    public void setXDR(String XDR) {
+    public void setXDR(Double XDR) {
         this.XDR = XDR;
     }
 
-    public String getBZD() {
+    public Double getBZD() {
         return BZD;
     }
 
-    public void setBZD(String BZD) {
+    public void setBZD(Double BZD) {
         this.BZD = BZD;
     }
 
-    public String getBAM() {
+    public Double getBAM() {
         return BAM;
     }
 
-    public void setBAM(String BAM) {
+    public void setBAM(Double BAM) {
         this.BAM = BAM;
     }
 
-    public String getEGP() {
+    public Double getEGP() {
         return EGP;
     }
 
-    public void setEGP(String EGP) {
+    public void setEGP(Double EGP) {
         this.EGP = EGP;
     }
 
-    public String getMOP() {
+    public Double getMOP() {
         return MOP;
     }
 
-    public void setMOP(String MOP) {
+    public void setMOP(Double MOP) {
         this.MOP = MOP;
     }
 
-    public String getNAD() {
+    public Double getNAD() {
         return NAD;
     }
 
-    public void setNAD(String NAD) {
+    public void setNAD(Double NAD) {
         this.NAD = NAD;
     }
 
-    public String getNIO() {
+    public Double getNIO() {
         return NIO;
     }
 
-    public void setNIO(String NIO) {
+    public void setNIO(Double NIO) {
         this.NIO = NIO;
     }
 
-    public String getPEN() {
+    public Double getPEN() {
         return PEN;
     }
 
-    public void setPEN(String PEN) {
+    public void setPEN(Double PEN) {
         this.PEN = PEN;
     }
 
-    public String getNZD() {
+    public Double getNZD() {
         return NZD;
     }
 
-    public void setNZD(String NZD) {
+    public void setNZD(Double NZD) {
         this.NZD = NZD;
     }
 
-    public String getWST() {
+    public Double getWST() {
         return WST;
     }
 
-    public void setWST(String WST) {
+    public void setWST(Double WST) {
         this.WST = WST;
     }
 
-    public String getTMT() {
+    public Double getTMT() {
         return TMT;
     }
 
-    public void setTMT(String TMT) {
+    public void setTMT(Double TMT) {
         this.TMT = TMT;
     }
 
-    public String getCLF() {
+    public Double getCLF() {
         return CLF;
     }
 
-    public void setCLF(String CLF) {
+    public void setCLF(Double CLF) {
         this.CLF = CLF;
     }
 
-    public String getBRL() {
+    public Double getBRL() {
         return BRL;
     }
 
-    public void setBRL(String BRL) {
+    public void setBRL(Double BRL) {
         this.BRL = BRL;
     }
 
