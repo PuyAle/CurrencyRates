@@ -36,9 +36,8 @@ public class RestClient {
 
             CurrencyShell cs = gson.fromJson(output, CurrencyShell.class);
             //System.out.println(cs);
-            String bar = "SEK";
 
-            System.out.println(cs.getRates().equals(bar));
+            System.out.println(cs.getRates());
 
         } catch (MalformedURLException e) {
 
