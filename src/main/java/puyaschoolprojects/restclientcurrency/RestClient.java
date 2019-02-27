@@ -40,8 +40,9 @@ public class RestClient {
             }
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
-            System.out.println(gson.toString());
-            // Shell shell = gson.fromJson(output, Shell.class);
+            CurrencyShell cs = gson.fromJson(output, CurrencyShell.class);
+
+            System.out.println(cs);
 
 //            Stream<Teacher> st = Arrays.stream(teachers);
 //            List<Teacher> teachersList = Arrays.asList(teachers);
