@@ -11,9 +11,10 @@ import java.net.URL;
 
 public class RestClient {
 
-    public void client() {
+    public CurrencyShell client(String inputUrl) {
+        CurrencyShell cs;
         try {
-            URL url = new URL("http://data.fixer.io/api/latest?access_key=93c83c2929256213aba41d6809f95038");
+            URL url = new URL(inputUrl);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
             conn.setRequestMethod(
@@ -34,18 +35,19 @@ public class RestClient {
 
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
-            CurrencyShell cs = gson.fromJson(output, CurrencyShell.class);
-            //System.out.println(cs);
-
+            cs = gson.fromJson(output, CurrencyShell.class);
             System.out.println(cs.getRates());
 
         } catch (MalformedURLException e) {
 
             e.printStackTrace();
+            return null;
 
         } catch (IOException e) {
 
             e.printStackTrace();
+            return null;
         }
+        return cs;
     }
 }
