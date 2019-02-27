@@ -19,7 +19,7 @@ public class RestClient {
             conn.setRequestMethod(
                     "GET");
             conn.setRequestProperty(
-                    "Accept", "application/xml");
+                    "Accept", "application/json");
 
             if (conn.getResponseCode()
                     != 200) {
@@ -32,24 +32,14 @@ public class RestClient {
 
             String output = br.readLine();
 
-            System.out.println(
-                    "Output from Server .... \n");
-//            if (output
-//                    != null) {
-//                System.out.println(output);
-//            }
-
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
             CurrencyShell cs = gson.fromJson(output, CurrencyShell.class);
-            System.out.println(cs);
-//            System.out.println(cs);
-//
-//            for (Currency te : teachers) {
-//                System.out.println(te);
-//
-//            }
-//            conn.disconnect();
+            //System.out.println(cs);
+            String bar = "SEK";
+
+            System.out.println(cs.getRates().equals(bar));
+
         } catch (MalformedURLException e) {
 
             e.printStackTrace();
