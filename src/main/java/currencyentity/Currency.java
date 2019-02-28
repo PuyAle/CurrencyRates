@@ -1,6 +1,5 @@
-package Entity;
+package currencyentity;
 
-import java.util.Map;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -46,17 +45,6 @@ public class Currency {
 
     public void setRate(Double rate) {
         this.rate = rate;
-    }
-
-    public void setNameAndRate(Map<String, Double> cs) {
-
-        for (Map.Entry<String, Double> entry : cs.entrySet()) {
-
-            name = entry.getKey();
-            rate = entry.getValue();
-
-        }
-
     }
 
 }

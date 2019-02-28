@@ -1,6 +1,7 @@
 package currencydao;
 
-import Entity.Currency;
+import currencyentity.Currency;
+import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -29,6 +30,10 @@ public class CurrencyDao {
 
         TypedQuery<Currency> q = em.createQuery("Select c from Currency c where c.name = :name", Currency.class);
         return q.setParameter("name", name).getSingleResult();
+    }
+
+    public List<Currency> getAllCurrency() {
+        return em.createQuery("Select c from Currency c").getResultList();
     }
 
 }

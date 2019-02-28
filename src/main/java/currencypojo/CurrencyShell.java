@@ -1,4 +1,4 @@
-package currencyforclient;
+package currencypojo;
 
 import java.util.HashMap;
 import java.util.Map;
