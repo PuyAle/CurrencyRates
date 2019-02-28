@@ -22,7 +22,7 @@ public class Menu {
             sc.nextLine();
             switch (input) {
                 case 1:
-                    rc.client("http://data.fixer.io/api/latest?access_key=myAPIKey");
+                    rc.client("http://data.fixer.io/api/latest?access_key=93c83c2929256213aba41d6809f95038");
                     break;
                 case 2:
                     System.out.println("Enter the date you whant to see by writing the date in format YYYY-MM-DD");
