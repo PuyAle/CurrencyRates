@@ -1,6 +1,7 @@
-package puyaschoolprojects.restclientcurrency;
+package ui;
 
 import java.util.Scanner;
+import client.RestClient;
 
 public class Menu {
 

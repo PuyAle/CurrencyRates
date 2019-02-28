@@ -1,5 +1,6 @@
-package puyaschoolprojects.restclientcurrency;
+package client;
 
+import currency.CurrencyShell;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.io.BufferedReader;

@@ -1,4 +1,4 @@
-package puyaschoolprojects.restclientcurrency;
+package currency;
 
 import java.util.HashMap;
 import java.util.Map;
