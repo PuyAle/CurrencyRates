@@ -1,4 +1,4 @@
-package currencyfordb;
+package Entity;
 
 import java.util.Map;
 import javax.persistence.Entity;
