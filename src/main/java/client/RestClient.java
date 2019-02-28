@@ -1,5 +1,6 @@
-package puyaschoolprojects.restclientcurrency;
+package client;
 
+import currencypojo.CurrencyShell;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.io.BufferedReader;
@@ -36,7 +37,6 @@ public class RestClient {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
             cs = gson.fromJson(output, CurrencyShell.class);
-            System.out.println(cs.getRates());
 
         } catch (MalformedURLException e) {
 

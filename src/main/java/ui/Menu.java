@@ -1,6 +1,8 @@
-package puyaschoolprojects.restclientcurrency;
+package ui;
 
 import java.util.Scanner;
+import client.RestClient;
+import currencylogics.CurrencyController;
 
 public class Menu {
 
@@ -21,7 +23,7 @@ public class Menu {
             sc.nextLine();
             switch (input) {
                 case 1:
-                    rc.client("http://data.fixer.io/api/latest?access_key=myAPIKey");
+                    System.out.println(rc.client("http://data.fixer.io/api/latest?access_key=93c83c2929256213aba41d6809f95038"));
                     break;
                 case 2:
                     System.out.println("Enter the date you whant to see by writing the date in format YYYY-MM-DD");
@@ -29,6 +31,10 @@ public class Menu {
                     rc.client("http://data.fixer.io/api/" + s + "?access_key=myAPIKey");
                     break;
                 case 3:
+                    CurrencyController cc = new CurrencyController();
+                    cc.setNameAndRate(rc.client("http://data.fixer.io/api/latest?access_key=93c83c2929256213aba41d6809f95038"));
+
+                case 0:
                     loop = false;
                     break;
             }
