@@ -32,7 +32,7 @@ public class Menu {
                     break;
                 case 3:
                     CurrencyController cc = new CurrencyController();
-                    cc.setNameAndRate(rc.client("http://data.fixer.io/api/latest?access_key=93c83c2929256213aba41d6809f95038"));
+                    cc.addCurrency(rc.client("http://data.fixer.io/api/latest?access_key=93c83c2929256213aba41d6809f95038"));
 
                 case 0:
                     loop = false;

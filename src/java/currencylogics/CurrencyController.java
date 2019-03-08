@@ -1,15 +1,17 @@
 package currencylogics;
 
-import currencydao.CurrencyDaoTest;
+import currencydao.CurrencyDao;
 import currencyentity.Currency;
 import currencypojo.CurrencyShell;
 import java.util.Map;
+import javax.inject.Inject;
 
 public class CurrencyController {
 
-    CurrencyDaoTest cd = new CurrencyDaoTest();
+    @Inject
+    CurrencyDao cd /*= new CurrencyDao()*/;
 
-    public void setNameAndRate(CurrencyShell cs) {
+    public void addCurrency(CurrencyShell cs) {
 
         for (Map.Entry<String, Double> entry : cs.getRates().entrySet()) {
             Currency c = new Currency(entry.getKey(), entry.getValue());
@@ -17,4 +19,8 @@ public class CurrencyController {
 
         }
     }
+
+//    public Currency getCurrencyByName(String s) {
+//
+//    }
 }
