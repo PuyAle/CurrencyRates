@@ -8,6 +8,9 @@ import java.util.List;
 import java.util.Map;
 
 public class CurrencyController {
+//Instead of all this, collect everything in 2 maps separate maps (one for each api).
+//Here we can compare ex. if map-key equal then subtract the key-values.
+    //So erase the Lists below. Just compare the 2 cs in the method below that compares.
 
     private List<Currency> latestCurrencyList = new ArrayList<>();
     private List<Currency> historicalCurrencyList = new ArrayList<>();
@@ -43,6 +46,8 @@ public class CurrencyController {
         }
     }
 //fix this.
+//Change the method to get 2 cs so they can be compared. and set in the menu class.
+    //Then we can compare the 2 map keys against each other and subtract the value for each currency. 
 
     public void compareLatestHistoricalCurrency() {
 
