@@ -2,7 +2,9 @@ package ui;
 
 import java.util.Scanner;
 import client.RestClient;
+import currencyentity.Currency;
 import currencylogics.CurrencyController;
+import java.util.List;
 
 public class Menu {
 
@@ -29,13 +31,15 @@ public class Menu {
                     //get list dosen't work
                     System.out.println("Enter the date you whant to see by writing the date in format YYYY-MM-DD");
                     String s = sc.nextLine();
-                    rc.client("http://data.fixer.io/api/" + s + "?access_key=93c83c2929256213aba41d6809f95038");
-                    cc.getHistoricalCurrencyList().forEach(System.out::println);
+                    // cc.createCurrency(rc.client("http://data.fixer.io/api/" + s + "?access_key=93c83c2929256213aba41d6809f95038"));
+                    //cc.getHistoricalCurrencyList().forEach(System.out::println);
                     break;
                 case 3:
-
-                    cc.createCurrency(rc.client("http://data.fixer.io/api/latest?access_key=93c83c2929256213aba41d6809f95038"));
-                    cc.compareLatestHistoricalCurrency();
+                    System.out.println("Enter the date you whant to see by writing the date in format YYYY-MM-DD");
+                    String s1 = sc.nextLine();
+                    //cc.createCurrency(rc.client("http://data.fixer.io/api/latest?access_key=93c83c2929256213aba41d6809f95038"));
+                    //  cc.compareLatestHistoricalCurrency();
+                    cc.compareCurrencyHist(rc.client("http://data.fixer.io/api/latest?access_key=93c83c2929256213aba41d6809f95038"), rc.client("http://data.fixer.io/api/" + s1 + "?access_key=93c83c2929256213aba41d6809f95038"));
                 case 0:
                     loop = false;
                     break;

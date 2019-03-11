@@ -1,35 +1,18 @@
 package currencyentity;
 
-import java.io.Serializable;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+public class Currency {
 
-@Entity
-public class Currency implements Serializable {
-
-    private static final long serialVersionUID = 1L;
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
     private String name;
-    private Double rate;
+    private double rate;
+    private double historicalPriceChange;
+    private double historicalPercentageChange;
 
     public Currency() {
     }
 
-    public Currency(String name, Double rate) {
+    public Currency(String name, double rate) {
         this.name = name;
         this.rate = rate;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -44,8 +27,24 @@ public class Currency implements Serializable {
         return rate;
     }
 
-    public void setRate(Double rate) {
+    public void setRate(double rate) {
         this.rate = rate;
+    }
+
+    public double getHistoricalPriceChange() {
+        return historicalPriceChange;
+    }
+
+    public void setHistoricalPriceChange(double historicalPriceChange) {
+        this.historicalPriceChange = historicalPriceChange;
+    }
+
+    public double getHistoricalPercentageChange() {
+        return historicalPercentageChange;
+    }
+
+    public void setHistoricalPercentageChange(double historicalPercentageChange) {
+        this.historicalPercentageChange = historicalPercentageChange;
     }
 
     @Override
