@@ -7,12 +7,11 @@ public class Currency {
     private double historicalPriceChange;
     private double historicalPercentageChange;
 
-    public Currency() {
-    }
-
-    public Currency(String name, double rate) {
+    public Currency(String name, double rate, double historicalPriceChange, double historicalPercentageChange) {
         this.name = name;
         this.rate = rate;
+        this.historicalPriceChange = historicalPriceChange;
+        this.historicalPercentageChange = historicalPercentageChange;
     }
 
     public String getName() {
