@@ -1,6 +1,6 @@
 package currencylogics;
 
-import currencyentity.Currency;
+import currencypojo.Currency;
 import currencypojo.CurrencyShell;
 
 import java.util.ArrayList;

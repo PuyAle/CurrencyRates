@@ -1,4 +1,4 @@
-package currencyentity;
+package currencypojo;
 
 public class Currency {
 
