@@ -1,5 +1,6 @@
 package ui;
 
+import apikey.ApiKey;
 import java.util.Scanner;
 import client.RestClient;
 
@@ -20,11 +21,12 @@ public class Menu {
             System.out.println("Enter your choice:\n");
             CurrencyController cc = new CurrencyController();
             RestClient rc = new RestClient();
+            ApiKey ak = new ApiKey();
             int input = sc.nextInt();
             sc.nextLine();
             switch (input) {
                 case 1:
-                    System.out.println(rc.client("http://data.fixer.io/api/latest?access_key=myKey"));
+                    System.out.println(rc.client("http://data.fixer.io/api/latest?access_key=" + ak.getApiKey()));
                     break;
                 case 2:
                     //get list dosen't work
@@ -36,7 +38,7 @@ public class Menu {
                 case 3:
                     System.out.println("Enter the date you whant to see by writing the date in format YYYY-MM-DD");
                     String s1 = sc.nextLine();
-                    cc.compareCurrencyHist(rc.client("http://data.fixer.io/api/latest?access_key=myKey"), rc.client("http://data.fixer.io/api/" + s1 + "?access_key=myKey"));
+                    cc.compareCurrencyHist(rc.client("http://data.fixer.io/api/latest?access_key=" + ak.getApiKey()), rc.client("http://data.fixer.io/api/" + s1 + "?access_key=" + ak.getApiKey()));
                 case 0:
                     loop = false;
                     break;
