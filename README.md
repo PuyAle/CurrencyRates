@@ -11,7 +11,7 @@ Currency rate for over 300 currency rates with Euro as base.
 The app is using two api why it's possible to get both the latest updated rates and historical. 
 The app allows the user to choose the historical date they like to see, with a limit to 1999.
 
-##Comming
+## Comming
 Correct menu for console use, extended exception management, front-end, JUnit testing. 
 
 ## Acknowledgments
