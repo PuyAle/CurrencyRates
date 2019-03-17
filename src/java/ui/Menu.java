@@ -38,7 +38,7 @@ public class Menu {
                 case 3:
                     System.out.println("Enter the date you whant to see by writing the date in format YYYY-MM-DD");
                     String s1 = sc.nextLine();
-                    cc.compareCurrencyHist(rc.client("http://data.fixer.io/api/latest?access_key=" + ak.getApiKey()), rc.client("http://data.fixer.io/api/" + s1 + "?access_key=" + ak.getApiKey()));
+                    cc.compareCurrencyHist(rc.client("http://data.fixer.io/api/latest?access_key=" + ak.getApiKey()));
                 case 0:
                     loop = false;
                     break;
