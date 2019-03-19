@@ -17,6 +17,7 @@ public class Menu {
         while (loop) {
             System.out.println("1. Print the latest price for over 300 currencies that are compared with Euro");
             System.out.println("2. Print a list for over 300 currencies that are compared with Euro during a specifik time in history ");
+            System.out.println("3. Compare the rates for currencies between a historical rate and the latest rate");
             System.out.println("0. Exit");
             System.out.println("Enter your choice:\n");
             CurrencyController cc = new CurrencyController();
